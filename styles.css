@@ -304,12 +304,6 @@ hr{
     width: 75%;
 }
 
-/* @media (min-width: 800px) {  
-    .skills-list{
-        width: 75%;
-    }
-} */
-
 .skill{
     margin: 10px;
     padding: 7px;
@@ -365,11 +359,6 @@ hr{
 .my-work-div:nth-child(n+3){
     margin-top: 100px;
 }
-/* @media (min-width: 800px) {  
-    .my-work-div:nth-child(n+3){
-        margin-top: 100px;
-    }
-} */
 
 .my-work-img{
     border-radius: 10px;
@@ -438,17 +427,15 @@ hr{
 
 .flex-outer {
   max-width: 800px;
-  /* width: 600px; */
-  /* margin: 0 auto; */
   margin: 0;
-  /* width: 45%; */
 }
 
-@media (min-width:800px){
+@media (min-width:900px){
     .flex-outer{
-        width: 45%;
+        width: 600px;
     }
 }
+
 
 .flex-outer li{
   display: flex;
@@ -684,7 +671,6 @@ hr{
 
     .my_name{
         font-size: 35px;
-        /* margin: 20px 10px; */
     }
 
     .career_title{
@@ -886,14 +872,7 @@ hr{
       
       .flex-outer > li > label + *{
         flex: 0;
-        /* width: 300px; */
       }
 
 }
 
-/* @media (min-width:440px){
-    .my_name{
-        font-size: 10px;
-        margin: 20px 10px;
-    }
-} */
