@@ -143,16 +143,15 @@
         <form name="contact" method="POST" data-netlify="true">
             <ul class="flex-outer">
               <li class="flex-outer-li">
-                <label for="first-name">Hi! my name is:<input type="text" id="first-name" placeholder="Enter your name here"></label>
+                <label for="first-name">Hi! my name is:<input type="text" name="name" id="first-name" placeholder="Enter your name here"></label>
                 
               </li>
               <li class="flex-outer-li">
-                <label for="email">My email is:</label>
-                <input type="email" id="email" placeholder="Enter your email here">
+                <label for="email">My email is:<input type="email" name="email" id="email" placeholder="Enter your email here"></label>
               </li>
               <li class="flex-outer-li">
-                <label for="message">I'd like to talk about:</label>
-                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+                <label for="message">I'd like to talk about:<textarea name="message" id="message" placeholder="Enter your message here"></textarea></label>
+                
               </li>
               <li class="flex-outer-li">
                 <button type="submit">Submit</button>
